@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // ===== Theme Toggle =====
     const themeToggle = document.querySelector('.theme-toggle');
@@ -130,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
+            alert('Thanks for your message! I will get back to you soon.');
             this.reset();
         });
     }
